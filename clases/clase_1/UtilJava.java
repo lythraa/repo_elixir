@@ -1,4 +1,4 @@
-package diapositivas.clase_1;
+package clases.clase_1;
 
 import java.awt.Component;
 import javax.swing.JOptionPane;
