@@ -1,0 +1,10 @@
+def generar_tupla_mensaje(tupla_info) do
+  elementos = Tuple.to_list(tupla_info)
+  mensaje =
+    elementos
+    |> Enum.with_index(1)
+    |> Enum.map(fn {valor, idx} -> "Elemento #{idx}: #{valor}" end)
+    |> Enum.join("\n")
+
+  mensaje
+end
