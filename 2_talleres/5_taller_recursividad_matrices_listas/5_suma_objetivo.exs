@@ -16,9 +16,9 @@ defmodule SumaObjetivo do
   busca una combinación de elementos de la lista que sume exactamente el objetivo
   """
 
-  def encontrar_combinacion([], 0), do: {:ok, []}
+  def encontrar_combinacion(_, 0), do: {:ok, []}
   #osea si al final despues de restar los numeros nos da 0,
-  #     es que si existe la combinacion, si 5-2-3= 0, entonces 2+3=0
+  #     es que si existe la combinacion, si 5-2-3= 0, entonces 2+3=5
 
   def encontrar_combinacion([], _), do: :no_existe
 
