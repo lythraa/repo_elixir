@@ -1,0 +1,3 @@
+# results: date; cliente=; conductor=; origen=; destino=; status=\n2025-11-09; cliente=luis; conductor=-; origen=Parque; destino=Centro; status=Expirado
+2025-11-09 17:46:19.164290Z; cliente=luis; conductor=ana; origen=Parque; destino=Centro; status=Completado
+2025-11-09 18:10:05.297782Z; cliente=pepe; conductor=-; origen=Parque; destino=Centro; status=Expirado
